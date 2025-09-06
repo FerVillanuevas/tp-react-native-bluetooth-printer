@@ -630,14 +630,16 @@ RCT_EXPORT_METHOD(openDrawer:(NSString *) str
 {
     switch (level) {
         case 1:
-            return [[ZXQRCodeErrorCorrectionLevel alloc] initWithOrdinal:0 bits:0x01 name:@"L"];
+            return [ZXQRCodeErrorCorrectionLevel errorCorrectionLevelL];
             break;
         case 2:
-             return [[ZXQRCodeErrorCorrectionLevel alloc] initWithOrdinal:3 bits:0x02 name:@"H"];
+            return [ZXQRCodeErrorCorrectionLevel errorCorrectionLevelH];
+            break;
         case 3:
-             return [[ZXQRCodeErrorCorrectionLevel alloc] initWithOrdinal:2 bits:0x03 name:@"Q"];
+            return [ZXQRCodeErrorCorrectionLevel errorCorrectionLevelQ];
+            break;
         default:
-             return [[ZXQRCodeErrorCorrectionLevel alloc] initWithOrdinal:1 bits:0x00 name:@"M"];
+            return [ZXQRCodeErrorCorrectionLevel errorCorrectionLevelM];
             break;
     }
 }
