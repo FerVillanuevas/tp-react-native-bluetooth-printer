@@ -26,7 +26,7 @@
   "main": "index",
   "types": "./types/index.d.ts",
   "typings": "./types/index.d.ts",
-  "name": "@fervillanuevas/react-native-bluetooth-printer",
+  "name": "@fervillanuev4s/react-native-bluetooth-printer",
   "homepage": "https://github.com/tulparyazilim/tp-react-native-bluetooth-printer#readme",
   "repository": {
     "type": "git",

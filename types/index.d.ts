@@ -1,4 +1,4 @@
-declare module "@fervillanuevas/react-native-bluetooth-printer" {
+declare module "@fervillanuev4s/react-native-bluetooth-printer" {
   export enum DIRECTION {
     FORWARD = 0,
     BACKWARD = 1,
