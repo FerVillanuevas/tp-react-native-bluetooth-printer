@@ -1,8 +1,6 @@
 {
   "author": {
-    "name": "Tulpar Yazılım",
-    "email": "info@tulparyazilim.com.tr",
-    "url": "https://www.tulparyazilim.com.tr"
+    "name": "Fermin Villanueva"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -28,7 +26,7 @@
   "main": "index",
   "types": "./types/index.d.ts",
   "typings": "./types/index.d.ts",
-  "name": "tp-react-native-bluetooth-printer",
+  "name": "@fervillanuevas/react-native-bluetooth-printer",
   "homepage": "https://github.com/tulparyazilim/tp-react-native-bluetooth-printer#readme",
   "repository": {
     "type": "git",
