@@ -246,7 +246,7 @@ RCT_EXPORT_METHOD(printText:(NSString *) text withOptions:(NSDictionary *) optio
     [RNBluetoothManager writeValue:toSend withDelegate:delegate];
 }
 
-RCT_EXPORT_METHOD(rotate:(NSInteger *)rotate
+RCT_EXPORT_METHOD(rotate:(NSInteger)rotate
                   withResolver:(RCTPromiseResolveBlock) resolve rejecter:(RCTPromiseRejectBlock) reject)
 {
     if(RNBluetoothManager.isConnected){
